@@ -119,7 +119,7 @@ Total suicides by age group over the study period were: <20 (n=10,042), 20–29 
 
 ### Cause-Specific Analysis
 
-Total cause-attributed suicides were: health (n=185,408), economic (n=67,942), family (n=57,557), work (n=34,889), relationship (n=13,372), and school (n=6,149). Note that individual suicides may be attributed to multiple causes (up to four from 2022 onward), so these counts are not mutually exclusive. Work-related suicides showed the highest May elevation (IRR=1.334, 95% CI 1.174–1.516; P<0.001), followed by economic (IRR=1.308; P=0.004) and health-related causes (IRR=1.274; P<0.001) (Table 3). School-related suicides were not significantly elevated in May (IRR=1.155, 95% CI 0.964–1.383; P=0.117), nor were relationship-related suicides (IRR=1.143; P=0.043, non-significant after BH correction).
+Total cause-attributed suicides were: health (n=185,408), economic (n=67,942), family (n=57,557), work (n=34,889), relationship (n=13,372), and school (n=6,149). Note that individual suicides may be attributed to multiple causes (up to four from 2022 onward), so these counts are not mutually exclusive. Work-related suicides showed the highest May elevation (IRR=1.334, 95% CI 1.174–1.516; P<0.001), followed by economic (IRR=1.308; P=0.004), health-related (IRR=1.274; P<0.001), and family-related causes (IRR=1.214, 95% CI 1.070–1.377; P=0.003) (Table 3). School-related suicides were not significantly elevated in May (IRR=1.155, 95% CI 0.964–1.383; P=0.117), nor were relationship-related suicides (IRR=1.143; P=0.043, non-significant after BH correction).
 
 ### Sensitivity Analyses
 
@@ -129,7 +129,7 @@ All sensitivity analyses confirmed the robustness of the primary findings (Table
 
 **Era comparison:** May IRRs were remarkably stable across all three eras: 1.282 (2009–2014), 1.288 (2015–2019), and 1.274 (2020–2024) (Figure 3). This temporal consistency argues against cohort effects or period-specific confounding.
 
-**Young adult cause-specific analysis (20–29 age group):** Work-related suicides showed a pronounced May elevation (IRR=1.513, 95% CI 1.314–1.743; P<0.001), representing a 51.3% increase relative to December. In contrast, school-related suicides remained non-significant (IRR=1.133, 95% CI 0.908–1.413; P=0.270). Health-related (IRR=1.178; P=0.035) and economic (IRR=1.209; P=0.034) causes showed borderline significance.
+**Young adult cause-specific analysis (20–29 age group):** Work-related suicides showed a pronounced May elevation (IRR=1.513, 95% CI 1.314–1.743; P<0.001), representing a 51.3% increase relative to December. In contrast, school-related suicides remained non-significant (IRR=1.133, 95% CI 0.908–1.413; P=0.270). Health-related (IRR=1.178; P=0.035) and economic (IRR=1.209; P=0.034) causes were non-significant after BH correction for six comparisons.
 
 **May ranking stability:** May was ranked #1 among all months in 2009–2014 and #2 (after March) in 2015–2024, consistently within the top two positions across the entire study period.
 

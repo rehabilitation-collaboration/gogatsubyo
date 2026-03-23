@@ -207,7 +207,7 @@ More broadly, this study illustrates the value of empirical testing of culturall
 
 ## Acknowledgments
 
-This manuscript was drafted with the assistance of Claude Opus 4.6 (Anthropic), a large language model. The AI assisted with data processing, statistical code generation, literature review, and manuscript drafting. All analyses, interpretations, and final editorial decisions were made by the human author. All references were verified against PubMed and CrossRef databases; any errors remain the responsibility of the author.
+This manuscript was drafted with the assistance of Claude Opus 4.6 (Anthropic), a large language model. The AI assisted with data processing, statistical code generation, literature review, and manuscript drafting. All analyses, interpretations, and final editorial decisions were made by the human author. All academic references were verified against PubMed and CrossRef databases; web-based sources were verified by direct URL access. Any errors remain the responsibility of the author.
 
 ## Author Contributions (CRediT)
 

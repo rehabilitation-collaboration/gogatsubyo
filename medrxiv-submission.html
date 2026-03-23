@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>medRxiv Submission - Gogatsubyo</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; color: #333; }
+  h1 { font-size: 1.4em; border-bottom: 3px solid #2563eb; padding-bottom: 8px; }
+  h2 { font-size: 1.1em; background: #2563eb; color: white; padding: 8px 12px; border-radius: 4px; margin-top: 32px; }
+  .field { margin: 16px 0; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 16px; }
+  .field-label { font-weight: bold; color: #2563eb; font-size: 0.85em; text-transform: uppercase; margin-bottom: 6px; }
+  .field-value { font-size: 0.95em; line-height: 1.6; white-space: pre-wrap; cursor: pointer; }
+  .field-value:hover { background: #fffde7; }
+  .note { font-size: 0.8em; color: #888; margin-top: 6px; font-style: italic; }
+  .checkbox { color: #16a34a; font-weight: bold; }
+  .radio { color: #2563eb; }
+  .warning { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 12px; margin: 12px 0; font-size: 0.85em; }
+  .copy-btn { background: #2563eb; color: white; border: none; padding: 4px 10px; border-radius: 3px; cursor: pointer; font-size: 0.75em; float: right; }
+  .copy-btn:hover { background: #1d4ed8; }
+  .copy-btn:active { background: #16a34a; }
+</style>
+<script>
+function copyField(id) {
+  const el = document.getElementById(id);
+  const text = el.innerText || el.textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = el.parentElement.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 1500);
+  });
+}
+</script>
+</head>
+<body>
+
+<h1>medRxiv Submission: Gogatsubyo</h1>
+<p style="color:#666; font-size:0.85em;">Generated: 2026-03-23 | Click "Copy" or click the text field to select</p>
+
+<!-- ============ PAGE 2 ============ -->
+<h2>Page 2: Manuscript Basics</h2>
+
+<div class="field">
+  <div class="field-label">Subject Area (dropdown)</div>
+  <div class="field-value">Epidemiology</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Title <button class="copy-btn" onclick="copyField('title')">Copy</button></div>
+  <div class="field-value" id="title">Is Gogatsubyo Real? A 16-Year Analysis of Monthly Suicide Patterns Challenges Japan's "May Sickness" Narrative</div>
+</div>
+
+<!-- ============ PAGE 3 ============ -->
+<h2>Page 3: Abstract and Author Declarations</h2>
+
+<div class="field">
+  <div class="field-label">Abstract <button class="copy-btn" onclick="copyField('abstract')">Copy</button></div>
+  <div class="note">medRxiv: &amp;plusmn; for plus-minus sign. Em-dashes (&#x2014;) replaced with hyphens below.</div>
+  <div class="field-value" id="abstract">Background: Gogatsubyo (May sickness) is a widely recognized cultural concept in Japan describing psychological maladjustment among new students and employees in May following the April academic/fiscal year transition. Surveys suggest 35-56% of working adults report experiencing gogatsubyo-like symptoms, yet no peer-reviewed study has empirically tested whether May represents a distinct peak in mental health burden.
+
+Methods: We conducted a retrospective ecological study using national suicide statistics from the Japanese Ministry of Health, Labour and Welfare (2009-2024, N=377,688 suicides across 192 monthly observations). Negative binomial regression estimated incidence rate ratios (IRR) for each month relative to December, adjusting for year trend with population offset. Subgroup analyses stratified by age group (8 categories) and cause of death (6 categories). Sensitivity analyses included COVID-19 period exclusion, era comparison (three 5-6-year blocks), and cause-specific analysis within the 20-29 age group. Benjamini-Hochberg correction was applied for multiple comparisons. Newey-West heteroscedasticity- and autocorrelation-consistent (HAC) standard errors were computed to assess robustness to temporal autocorrelation.
+
+Results: May had the second-highest monthly suicide rate (20.5 per 100,000 person-years), with a significant IRR of 1.282 (95% CI 1.192-1.379; P&lt;0.001) relative to December. However, May was not significantly different from March (IRR=0.998; P=0.75), indicating that the May elevation is part of a broader spring peak rather than a month-specific phenomenon. The 20-29 age group-the primary demographic target of the gogatsubyo narrative-had the lowest May IRR among all significant age groups (IRR=1.237). Work-related suicides showed the highest May elevation (IRR=1.334; P&lt;0.001), while school-related suicides were non-significant (IRR=1.155; P=0.117). Among 20-29-year-olds specifically, work-related suicides were elevated by 51.3% in May (IRR=1.513; P&lt;0.001), but school-related suicides remained non-significant (IRR=1.133; P=0.270). All findings were robust across COVID-19 exclusion, era comparison, and HAC standard errors.
+
+Conclusions: May suicides are significantly elevated but represent part of a broader spring peak shared with March, not a phenomenon unique to May. The gogatsubyo narrative-that new students and young workers are specifically vulnerable in May-is not supported by suicide data: the target demographic shows the weakest May signal, and school-related suicides show no significant May increase. These findings, based on the most extreme manifestation of psychological distress, are consistent with the gogatsubyo narrative being sustained in part by confirmation bias. Whether milder forms of May-specific maladjustment exist beyond what population-level suicide statistics can capture remains an open question requiring individual-level data.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Author Approval</div>
+  <div class="checkbox">[x] This manuscript has been seen and approved by all listed authors.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Not Published</div>
+  <div class="checkbox">[x] This manuscript has not been published by a journal.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Competing Interests</div>
+  <div class="radio">(o) The authors have declared no competing interest.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Declarations</div>
+  <table style="width:100%; font-size:0.9em; border-collapse:collapse;">
+    <tr><td style="padding:4px 8px;">Declaration 1</td><td class="checkbox">[x] Yes</td></tr>
+    <tr><td style="padding:4px 8px;">Declaration 2</td><td class="checkbox">[x] Yes</td></tr>
+    <tr><td style="padding:4px 8px; padding-left:24px;">Human data?</td><td class="radio">(o) Yes</td></tr>
+    <tr><td style="padding:4px 8px; padding-left:24px;">Openly available?</td><td class="radio">(o) Yes</td></tr>
+    <tr><td style="padding:4px 8px;">Declaration 3</td><td class="checkbox">[x] Yes</td></tr>
+    <tr><td style="padding:4px 8px;">Declaration 4</td><td class="checkbox">[x] Yes</td></tr>
+    <tr><td style="padding:4px 8px; padding-left:24px;">Prospective interventional?</td><td class="radio">(o) No</td></tr>
+    <tr><td style="padding:4px 8px;">Declaration 5</td><td class="checkbox">[x] Yes</td></tr>
+    <tr><td style="padding:4px 8px;">Declaration 6</td><td class="checkbox">[x] Yes</td></tr>
+  </table>
+</div>
+
+<div class="field">
+  <div class="field-label">Declaration 2 - Open Data Text <button class="copy-btn" onclick="copyField('opendata')">Copy</button></div>
+  <div class="field-value" id="opendata">This study used only openly available aggregate suicide statistics from the Japanese Ministry of Health, Labour and Welfare "Basic Data on Suicide in Communities" (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html). Population estimates were obtained from the Statistics Bureau of Japan (https://www.e-stat.go.jp/). All data are freely downloadable without application or registration.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Data Availability Statement <button class="copy-btn" onclick="copyField('dataavail')">Copy</button></div>
+  <div class="field-value" id="dataavail">Suicide statistics are publicly available from the Japanese Ministry of Health, Labour and Welfare (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html). Population estimates are publicly available from the Statistics Bureau of Japan (https://www.e-stat.go.jp/). Analysis code is available at https://github.com/rehabilitation-collaboration/gogatsubyo.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Data Availability Links</div>
+  <div class="field-value">1: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html
+2: https://www.e-stat.go.jp/
+3: https://github.com/rehabilitation-collaboration/gogatsubyo</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Funding Statement <button class="copy-btn" onclick="copyField('funding')">Copy</button></div>
+  <div class="field-value" id="funding">This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.</div>
+</div>
+
+<div class="field">
+  <div class="field-label">Clinical Protocols</div>
+  <div class="note">(leave blank)</div>
+</div>
+
+<!-- ============ PAGE 4 ============ -->
+<h2>Page 4: Author List</h2>
+
+<div class="field">
+  <table style="width:100%; font-size:0.9em; border-collapse:collapse;">
+    <tr><td style="padding:4px 8px; font-weight:bold; width:160px;">First Name</td><td>Mizuki</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Last Name</td><td>Shirai</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Degree</td><td>MHS</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Email</td><td>reha-collab@manabu-lab.com</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Institution</td><td>Specified Nonprofit Corporation Rehabilitation Collaboration</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Country</td><td>Japan</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">ORCID</td><td>0009-0005-3615-0670</td></tr>
+    <tr><td style="padding:4px 8px; font-weight:bold;">Corresponding</td><td>Yes</td></tr>
+  </table>
+</div>
+
+<div class="warning">
+  <strong>Author追加後の必須操作:</strong><br>
+  1. 右上の <strong>[I AM THIS AUTHOR]</strong> ボタンをクリック<br>
+  2. Email が正しいか確認（自動入力で変わることがある）<br>
+  3. Institution名が正式名称か確認（短縮されることがある）
+</div>
+
+<!-- ============ PAGE 5 ============ -->
+<h2>Page 5: Distribution/Reuse Options</h2>
+
+<div class="field">
+  <div class="field-label">License</div>
+  <div class="field-value">CC BY 4.0</div>
+</div>
+
+<!-- ============ PAGE 6-7 ============ -->
+<h2>Page 6-7: Files</h2>
+
+<div class="field">
+  <div class="field-label">Manuscript PDF</div>
+  <div class="field-value">~/claude/analysis/gogatsubyo/output/manuscript.pdf</div>
+  <div class="note">Page 6: follow on-screen metadata instructions. Page 7: upload PDF.</div>
+</div>
+
+<!-- ============ PAGE 8 ============ -->
+<h2>Page 8: Submission Proofing</h2>
+
+<div class="field">
+  <div class="field-value">Review all pages &rarr; Approve Manuscript &rarr; Submit</div>
+</div>
+
+</body>
+</html>

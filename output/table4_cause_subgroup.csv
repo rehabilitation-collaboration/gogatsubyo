@@ -1,0 +1,7 @@
+cause,may_irr,ci_low,ci_high,p_value,bh_significant
+Work,1.3344,1.1744,1.5162,0.000010,True
+School,1.1550,0.9644,1.3833,0.117276,False
+Health,1.2736,1.1612,1.3968,0.000000,True
+Family,1.2137,1.0699,1.3768,0.002615,True
+Economic,1.3078,1.0889,1.5706,0.004083,True
+Relationship,1.1429,1.0045,1.3003,0.042554,False

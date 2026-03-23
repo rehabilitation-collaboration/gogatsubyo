@@ -1,0 +1,21 @@
+# Raw data downloads (can be regenerated)
+data/jisatsu_r6_hakken/
+data/jisatsu_r6_hakken.zip
+data/jisatsu_r6_may/
+data/jisatsu_r6_may.zip
+data/jisatsu_r6_nissu/
+data/jisatsu_r6_nissu.zip
+data/mhlw_monthly_zips/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Internal files
+PLAN.md
+LITERATURE.md
+REVIEW-REPORT.md

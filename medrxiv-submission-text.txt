@@ -1,0 +1,169 @@
+========================================
+medRxiv submission text
+Gogatsubyo - Version 1
+========================================
+
+Left sidebar pages:
+  1. Submission Guide
+  2. Manuscript Basics
+  3. Abstract and Author Declarations
+  4. Author list
+  5. Distribution/Reuse Options
+  6. Files Metadata
+  7. Manuscript Files
+  8. Submission Proofing
+
+
+============================================================
+Page 2: Manuscript Basics
+============================================================
+
+------------------------------------------------------------
+*Subject Area  dropdown
+------------------------------------------------------------
+Epidemiology
+
+------------------------------------------------------------
+*Title  text field
+------------------------------------------------------------
+Is Gogatsubyo Real? A 16-Year Analysis of Monthly Suicide Patterns Challenges Japan's "May Sickness" Narrative
+
+
+============================================================
+Page 3: Abstract and Author Declarations
+============================================================
+
+------------------------------------------------------------
+*Abstract:  text area
+  Note: plus-minus sign must be entered as &[plusmn]
+------------------------------------------------------------
+Background: Gogatsubyo (May sickness) is a widely recognized cultural concept in Japan describing psychological maladjustment among new students and employees in May following the April academic/fiscal year transition. Surveys suggest 35-56% of working adults report experiencing gogatsubyo-like symptoms, yet no peer-reviewed study has empirically tested whether May represents a distinct peak in mental health burden.
+
+Methods: We conducted a retrospective ecological study using national suicide statistics from the Japanese Ministry of Health, Labour and Welfare (2009-2024, N=377,688 suicides across 192 monthly observations). Negative binomial regression estimated incidence rate ratios (IRR) for each month relative to December, adjusting for year trend with population offset. Subgroup analyses stratified by age group (8 categories) and cause of death (6 categories). Sensitivity analyses included COVID-19 period exclusion, era comparison (three 5-6-year blocks), and cause-specific analysis within the 20-29 age group. Benjamini-Hochberg correction was applied for multiple comparisons. Newey-West heteroscedasticity- and autocorrelation-consistent (HAC) standard errors were computed to assess robustness to temporal autocorrelation.
+
+Results: May had the second-highest monthly suicide rate (20.5 per 100,000 person-years), with a significant IRR of 1.282 (95% CI 1.192-1.379; P<0.001) relative to December. However, May was not significantly different from March (IRR=0.998; P=0.75), indicating that the May elevation is part of a broader spring peak rather than a month-specific phenomenon. The 20-29 age group-the primary demographic target of the gogatsubyo narrative-had the lowest May IRR among all significant age groups (IRR=1.237). Work-related suicides showed the highest May elevation (IRR=1.334; P<0.001), while school-related suicides were non-significant (IRR=1.155; P=0.117). Among 20-29-year-olds specifically, work-related suicides were elevated by 51.3% in May (IRR=1.513; P<0.001), but school-related suicides remained non-significant (IRR=1.133; P=0.270). All findings were robust across COVID-19 exclusion, era comparison, and HAC standard errors.
+
+Conclusions: May suicides are significantly elevated but represent part of a broader spring peak shared with March, not a phenomenon unique to May. The gogatsubyo narrative-that new students and young workers are specifically vulnerable in May-is not supported by the data: the target demographic shows the weakest May signal, and school-related suicides show no significant May increase. These findings are consistent with gogatsubyo being a confirmation bias that misattributes a well-documented spring suicide peak to young adults' adjustment difficulties.
+
+------------------------------------------------------------
+*Author Approval:  checkbox
+------------------------------------------------------------
+[x] This manuscript has been seen and approved by all listed authors.
+
+------------------------------------------------------------
+checkbox
+------------------------------------------------------------
+[x] This manuscript has not been published by a journal.
+
+------------------------------------------------------------
+*Competing Interests:
+------------------------------------------------------------
+(o) The authors have declared no competing interest.
+
+------------------------------------------------------------
+*Declarations:
+------------------------------------------------------------
+
+--- Declaration 1 ---
+  [x] Yes
+
+--- Declaration 2 ---
+  [x] Yes
+
+  Does the study describe the use of any human data...?
+  (o) Yes
+
+  Did this work use ONLY data that were openly available to the public...?
+  (o) Yes
+
+  Text field:
+This study used only openly available aggregate suicide statistics from the Japanese Ministry of Health, Labour and Welfare "Basic Data on Suicide in Communities" (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html). Population estimates were obtained from the Statistics Bureau of Japan (https://www.e-stat.go.jp/). All data are freely downloadable without application or registration.
+
+--- Declaration 3 ---
+  [x] Yes
+
+--- Declaration 4 ---
+  [x] Yes
+
+  Is this a prospective interventional study?
+  (o) No
+
+--- Declaration 5 ---
+  [x] Yes
+
+--- Declaration 6 ---
+  [x] Yes
+
+------------------------------------------------------------
+*Data Availability Statement:
+------------------------------------------------------------
+Suicide statistics are publicly available from the Japanese Ministry of Health, Labour and Welfare (https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html). Population estimates are publicly available from the Statistics Bureau of Japan (https://www.e-stat.go.jp/). Analysis code is available at https://github.com/rehabilitation-collaboration/gogatsubyo.
+
+------------------------------------------------------------
+Data Availability Links:
+------------------------------------------------------------
+1: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000140901.html
+2: https://www.e-stat.go.jp/
+3: https://github.com/rehabilitation-collaboration/gogatsubyo
+
+------------------------------------------------------------
+*Funding Statement:
+------------------------------------------------------------
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+------------------------------------------------------------
+Clinical Protocols:
+------------------------------------------------------------
+(leave blank)
+
+
+============================================================
+Page 4: Author list
+============================================================
+
+------------------------------------------------------------
+[Add Author]
+------------------------------------------------------------
+First Name: Mizuki
+Last Name: Shirai
+Degree: MHS
+Email: reha-collab@manabu-lab.com
+Institution: Specified Nonprofit Corporation Rehabilitation Collaboration
+Country: Japan
+ORCID: 0009-0005-3615-0670
+Corresponding Author: Yes
+
+NOTE: After adding, click [I AM THIS AUTHOR] button (top right).
+      Fix email and institution name manually if auto-filled incorrectly.
+
+
+============================================================
+Page 5: Distribution/Reuse Options
+============================================================
+
+------------------------------------------------------------
+License
+------------------------------------------------------------
+CC BY 4.0
+
+
+============================================================
+Page 6: Files Metadata
+============================================================
+(follow on-screen instructions)
+
+
+============================================================
+Page 7: Manuscript Files
+============================================================
+
+------------------------------------------------------------
+*File Upload
+------------------------------------------------------------
+Upload: ~/claude/analysis/gogatsubyo/output/manuscript.pdf
+
+
+============================================================
+Page 8: Submission Proofing
+============================================================
+Review all pages -> Approve Manuscript -> Submit
